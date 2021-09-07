@@ -4,5 +4,5 @@ The dashboard represents a Graphical intepretation
 * Deployed Github link  https://github.com/JudyMotha/workout_tracker
 * Heroku   https://warm-oasis-81803.herokuapp.com/
 
-<img src="./Workouts.gif">
- <img src="./WorkoutsHeroku.gif">
+Local host<img src="./Workouts.gif">
+Heroku  <img src="./WorkoutsHeroku.gif">
