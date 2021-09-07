@@ -4,7 +4,7 @@ const logger = require('morgan');
 const mongoose = require('mongoose');
 const PORT = process.env.PORT || 3005;
 const app = express();
-
+// in addition to mongoose concept we have a morgan and logger that go hand in hand (helpers ;generates logs)
 app.use(morgan("dev"));
 
 app.use(logger('dev'));
@@ -23,7 +23,7 @@ mongoose.connect(
     }
 )
 
-//moved api and html/home routes to separate folder
+//moved api and html/home routes to separate folder as per feeddback recd for notetaker hw
 app.use(require("./routes/apiroutes.js"));
 app.use(require("./routes/htmlroutes.js"));
 
