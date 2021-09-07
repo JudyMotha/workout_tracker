@@ -2,7 +2,7 @@ const router = require("express").Router();
 //const Workout = require("../models/workout.js");
 const db = require('../models');
 
-
+//dB workout -table /collection workouts
 
 //New workout POST 
 router.post('/api/workouts', (req, res) => {
