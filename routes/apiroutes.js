@@ -69,7 +69,7 @@ router.put('/api/workouts/:id', (req, res) => {
                                            { exercises: req.body }                     
                                              },    
                                           //  { new: true },
-                                           { new: true },
+                                          // { new: true },
                                        (err, data) => {
                                            if (err) {
                                              res.send(err);
