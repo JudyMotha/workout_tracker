@@ -1,9 +1,10 @@
 const router = require('express').Router();
 const path = require('path');
 
-router.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html'))
-})
+//Checked with my tutor whether the below code is is neceassary and understood its a part of public static fn on line 14 in server.js 
+//router.get('/', (req, res) => {
+//    res.sendFile(path.join(__dirname, '../public/index.html'))
+//})
 
 router.get('/exercise', (req, res)=> {
     res.sendFile(path.join(__dirname, "../public/exercise.html"))
