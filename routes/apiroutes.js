@@ -3,7 +3,9 @@ const router = require("express").Router();
 const db = require('../models');
 
 //dB workout -table /collection workouts
-//POst and Get
+
+
+//POst and Get-- Rempve 
 //router.post("/api/workouts", ({ body }, res) => {
 //  db.Workout.create(body)
  //   .then(dbWorkout => { res.json(dbWorkout); })
