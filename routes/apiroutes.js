@@ -7,17 +7,7 @@ const db = require('../models');
 //https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/ {-id way of solving also  works};{ $sum: <expression> };$sum is available in these stages:
 //$addFields (Available starting in MongoDB 3.4).REfer example with db.sales.aggregate
 
-//POst and Get-- Rempve 
-//router.post("/api/workouts", ({ body }, res) => {
-//  db.Workout.create(body)
- //   .then(dbWorkout => { res.json(dbWorkout); })
-//    .catch(err => { res.json(err); });
-//});
-//router.get("/api/workouts/range", (req, res) => {
-//  db.Workout.find({})
-//    .then(dbWorkout => { res.json(dbWorkout); })
- //   .catch(err => { res.json(err); });
-//});
+
 
 //New workout POST 
 router.post('/api/workouts', (req, res) => {
@@ -32,6 +22,8 @@ router.post('/api/workouts', (req, res) => {
   });
 });
   
+
+
 //get routes sets for aggrate weights and time reference boiler plate for  duration and weights for any given day
 router.get('/api/workouts', (req, res) => {
                                           db.Workout.aggregate([
