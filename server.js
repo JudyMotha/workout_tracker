@@ -23,7 +23,7 @@ mongoose.connect(
     }
 )
 
-//moved api and html/home routes to separate folder as per feeddback recd for notetaker hw
+//Prefer HTML and homeroutes on this file only -moved api and html/home routes to separate folder as per feeddback recd for notetaker hw
 app.use(require("./routes/apiroutes.js"));
 app.use(require("./routes/htmlroutes.js"));
 
