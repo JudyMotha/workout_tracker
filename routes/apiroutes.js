@@ -3,7 +3,9 @@ const router = require("express").Router();
 const db = require('../models');
 
 //dB workout -table /collection workouts
-
+//The $addFields stage is equivalent to a $project stage that explicitly specifies all existing fields in the input documents and adds the new fields
+//https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/ {-id way of solving also  works};{ $sum: <expression> };$sum is available in these stages:
+//$addFields (Available starting in MongoDB 3.4).REfer example with db.sales.aggregate
 
 //POst and Get-- Rempve 
 //router.post("/api/workouts", ({ body }, res) => {
