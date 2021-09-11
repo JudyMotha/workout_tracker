@@ -10,7 +10,18 @@ const db = require('../models');
 //The $addFields stage is equivalent to a $project stage that explicitly specifies all existing fields in the input documents and adds the new fields
 //https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/ {-id way of solving also  works};{ $sum: <expression> };$sum is available in these stages:
 //$addFields (Available starting in MongoDB 3.4).REfer example with db.sales.aggregate on mongo documentation
+//router.get("/api/transaction", (req, res) => {
 
+//  Transaction.find({})
+//   .sort({ date: -1 })
+//    .then(dbTransaction => {
+//      res.json(dbTransaction);
+ //   })
+//    .catch(err => {
+//      res.status(400).json(err);
+//    });
+//});
+//The above is from Nosql Mini project script
 
 
 //New workout POST 
