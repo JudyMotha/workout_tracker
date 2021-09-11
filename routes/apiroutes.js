@@ -2,7 +2,7 @@ const router = require("express").Router();
 //const Workout = require("../models/workout.js");
 const db = require('../models');
 
-//Final clean up ..
+//Final clean up ;REMINDERS &REFERENCES FOR FUTURE USE..
 
 //dB name  workout -table /collection is  workouts-Look at Robo3T on local machine and login to mongo atlas to see collections likewise for db /table update .Refer Network for routes
 //Bootcamp is coming to closing stage Week 18 Class contains has mongo atlas set up and Heroku deployment instrucions ...where to use you password etc  in final stages
