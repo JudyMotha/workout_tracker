@@ -8,5 +8,4 @@ The dashboard represents a Graphical intepretation
 Find below the GIF file for app on local host ,Heroku ;Screen shot of the DB/Collections (workout/workouts)
 Local host<img src="./Workouts.gif">
 Heroku  <img src="./WorkoutsHeroku.gif">
-AtlasMongo Collections <img src ="./AtlasMongo WorkoutCollections.JPG">
 AtlasMongo Collections <img src ="./AtlasMongoDBCollections.gif">
