@@ -7,4 +7,4 @@ The dashboard represents a Graphical intepretation
 
 Local host<img src="./Workouts.gif">
 Heroku  <img src="./WorkoutsHeroku.gif">
-AtlasMongo Collections <img src ="./AtlasMongo WorkoutCollections.JPG>
+AtlasMongo Collections <img src ="./AtlasMongo WorkoutCollections.JPEG>
