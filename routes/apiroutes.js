@@ -21,7 +21,7 @@ const db = require('../models');
 //      res.status(400).json(err);
 //    });
 //});
-//The above is from Nosql Mini project script
+//The above is from Nosql Mini project script 15-24
 
 
 //New workout POST 
