@@ -6,6 +6,7 @@ The dashboard represents a Graphical intepretation
 * Heroku   https://warm-oasis-81803.herokuapp.com/
 
 Find below the GIF file for app on local host ,Heroku ;GIF for AtlasMongo Collections also provided below
+
 Local host<img src="./Workouts.gif">
 Heroku  <img src="./WorkoutsHeroku.gif">
 AtlasMongo Collections <img src ="./AtlasMongoDBCollections.gif">
