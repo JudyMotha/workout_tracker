@@ -5,5 +5,5 @@ The dashboard represents a Graphical intepretation
 * Deployed Github link  https://github.com/JudyMotha/workout_tracker
 * Heroku   https://warm-oasis-81803.herokuapp.com/
 
-Find below the GIF file for app on local host ,Heroku ;GIF for AtlasMongo Collections also provided below
+
 
